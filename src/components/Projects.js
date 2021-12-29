@@ -40,7 +40,7 @@ const Projects = () => {
                                         <div className="py-2 uppercase font-semibold text-lg">{project.name}</div>
                                         <div className="flex flex-wrap">
                                             {project.skills.map((skill, idx) => (
-                                                <div key={idx} className="bg-gradient text-black text-sm p-2 mr-2 rounded-lg">{skill}</div>
+                                                <div key={idx} className="bg-gradient text-black text-sm p-2 mr-2 mb-2 rounded-lg">{skill}</div>
                                             ))}
                                         </div>
                                         <div className="my-3">{project.description}</div>
