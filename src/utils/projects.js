@@ -1,5 +1,12 @@
 export const projectsList = [
     {
+        imgName: "socr",
+        name: "SocR - Social Media",
+        description: "A social media react app made using a full range of modern technologies. A lot of features and just a fun place to explore.",
+        skills: ["React", "Redux", "Firebase", "React Router", "Material UI"],
+        link: "https://socr.vercel.app/"
+    },
+    {
         imgName: "movies-db",
         name: "Movies Database",
         description: "Movies database made with React, React Router, Firebase and TMDB API. You can add movies to your watchlist and get info about them",
