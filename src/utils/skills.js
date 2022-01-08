@@ -46,6 +46,10 @@ export const skillsList = [
         imgName: "redux"
     },
     {
+        name: "RecoilJS",
+        imgName: "recoil"
+    },
+    {
         name: "MobX",
         imgName: "mobx"
     },
