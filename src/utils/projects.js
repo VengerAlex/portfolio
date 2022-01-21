@@ -28,6 +28,13 @@ export const projectsList = [
         link: "https://quiz-game-omega.vercel.app/"
     },
     {
+        imgName: "react-messenger",
+        name: "React messenger",
+        description: "A simple web messenger made with React",
+        skills: ["React", "Typescript", "Material UI", "Firebase"],
+        link: "https://react-messenger-snowy.vercel.app/"
+    },
+    {
         imgName: "covid-tracker",
         name: "Covid Tracker",
         description: "A covid tracker made with Vue and using CovidDataAPI.",
