@@ -35,6 +35,13 @@ export const projectsList = [
         link: "https://react-messenger-snowy.vercel.app/"
     },
     {
+        imgName: "dictionary",
+        name: "Dictionary",
+        description: "A simple urban dictionary with definitions of ALL the words",
+        skills: ["React", "Typescript", "MaterialUI"],
+        link: "https://dictionary-liard.vercel.app/"
+    },
+    {
         imgName: "covid-tracker",
         name: "Covid Tracker",
         description: "A covid tracker made with Vue and using CovidDataAPI.",
