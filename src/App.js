@@ -4,11 +4,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Nav from "./components/Nav";
 
-import {
-  HashRouter as Router,
-  Routes,
-  Route
-} from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 
 function App() {
@@ -16,15 +12,14 @@ function App() {
     <Router>
       <div className="App bg-gray-800 text-white min-h-screen">
         <Nav />
-        <Routes >
+        <Routes>
           <Route path="/projects" element={<Projects />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/about" element={<About />} />
           <Route exact path="/" element={<Hero />} />
-        </Routes >
+        </Routes>
         <Footer />
       </div>
-
     </Router>
   );
 }
