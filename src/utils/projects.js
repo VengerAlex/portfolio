@@ -16,12 +16,50 @@ export const projectsList = [
     link: "https://movies-db-green.vercel.app/",
   },
   {
+    imgName: "recreate",
+    name: "Recreate",
+    description:
+      "This is an open-call to the architects, artists and designers of the world. Help us reimagine the future of Ukraine after the war is over.",
+    skills: ["React", "React Router"],
+    link: "https://recreateua.com/",
+  },
+  {
+    imgName: "react-adminPanel",
+    name: "React Admin Panel",
+    description:
+      "A simple admin panel template made with React and React Router. You can add, edit and delete users and movies",
+    skills: ["React", "React Router"],
+    link: "https://react-admin-panel-indol.vercel.app/",
+  },
+  {
     imgName: "weather-app",
     name: "Weather App",
     description:
       "Weather App made with React. You can get weather info for any city in the world",
     skills: ["React", "OpenWeather API"],
     link: "https://weather-app-pi-nine.vercel.app/",
+  },
+  {
+    imgName: "feodalOnline",
+    name: "Feodal Online",
+    description:
+      "Feodal.Online integrates an automated audit of land plots, visualization, landbank monitoring and information from the StateGeoCadastre and the State Register of Property Rights (SRPR) in a single user window.",
+    skills: ["HTML", "CSS", "JS"],
+    link: "https://feodal.online/",
+  },
+  {
+    imgName: "feodalLand",
+    name: "Feodal Land",
+    description: "Land audit and landbank management for farmers",
+    skills: ["HTML", "CSS", "JS"],
+    link: "https://feodal.online/land",
+  },
+  {
+    imgName: "feodalHromada",
+    name: "Feodal Hromada",
+    description: "COMPLETE ONLINE SYSTEM FOR LANDBANK MANAGEMENT",
+    skills: ["HTML", "CSS", "JS"],
+    link: "https://feodal.online/hromada",
   },
   {
     imgName: "quiz-game",
