@@ -1,50 +1,58 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  border: 0;
+  outline: 0;
+  background-color: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  box-shadow: none;
+  box-sizing: border-box;
 }
 
-.bg-gradient {
-  background: linear-gradient(90deg, #00f5a0 0%, #00d9f5 100%);
+html {
+  scroll-behavior: smooth;
 }
 
-.text-gradient {
-  background: linear-gradient(90deg, #00f5a0 0%, #00d9f5 100%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.2;
+  color: var(--clr-fg-alt);
 }
 
-.border-left-gradient {
-  position: relative;
+h1 {
+  font-size: 4rem;
 }
 
-.border-left-gradient::before {
-  position: absolute;
-  top: 0.5rem;
-  left: 0;
-  height: 85%;
-  width: 0.4rem;
-  content: "";
-  background: linear-gradient(90deg, #00f5a0 0%, #00d9f5 100%);
-  border-radius: 6rem;
+h2 {
+  font-size: 2rem;
 }
 
-.border-right-gradient {
-  position: relative;
+h3 {
+  font-size: 1.5rem;
 }
 
-.border-right-gradient::before {
-  position: absolute;
-  top: 0.5rem;
-  right: 0;
-  height: 85%;
-  width: 0.4rem;
-  content: "";
-  background: linear-gradient(90deg, #00f5a0 0%, #00d9f5 100%);
-  border-radius: 6rem;
+h4 {
+  font-size: 1.3rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 2.6rem;
+  }
 }
