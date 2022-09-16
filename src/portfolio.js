@@ -47,12 +47,12 @@ const projects = [
     livePreview: 'https://weather-app-pi-nine.vercel.app/',
   },
   {
-    name: 'Quiz Game',
+    name: 'Rick and Morty database',
     description:
-      'Quiz Game made with React. A fun quiz game with random question and scoreboard',
-    stack: ['React', 'Quiz API'],
-    sourceCode: 'https://github.com/Rydl3r/quiz-game',
-    livePreview: 'https://quiz-game-omega.vercel.app/',
+      'Complete Rick and Morty database, including characters, episodes, locations and a personal watchlist',
+    stack: ['React', 'Typescript', 'Material UI', 'Rick And Morty API'],
+    sourceCode: 'https://github.com/Rydl3r/rick-and-morty-database',
+    livePreview: 'https://rick-and-morty-database-azure.vercel.app/',
   },
   {
     name: 'Rock, Paper, Scissors',
