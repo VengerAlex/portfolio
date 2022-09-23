@@ -9,6 +9,7 @@ const ThemeProvider = ({ children }) => {
   useEffect(() => {
     const darkMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
     setThemeName(darkMediaQuery.matches ? 'dark' : 'light')
+
     darkMediaQuery.addEventListener('change', (e) => {
       setThemeName(e.matches ? 'dark' : 'light')
     });
